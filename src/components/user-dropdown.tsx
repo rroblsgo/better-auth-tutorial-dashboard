@@ -46,6 +46,11 @@ export function UserDropdown({ user }: { user: User }) {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
+          <Link href="/dashboard2">
+            <ShieldIcon className="size-4" /> <span>Dashboard2</span>
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem asChild>
           <Link href="/profile">
             <UserIcon className="size-4" /> <span>Profile</span>
           </Link>
